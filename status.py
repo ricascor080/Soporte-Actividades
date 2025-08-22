@@ -7,10 +7,10 @@ from pathlib import Path
 USERNAME = "ricascor080@gmail.com"
 PASSWORD = "Ricas002385."
 
-UUID = "122D648B-CD0B-5D5D-AEA4-FF8B0AD93394"
+UUID = "9ACF3865-1C6D-5930-863A-365C13FF8714"
 RFC_EMISOR = "EKU9003173C9"
-RFC_RECEPTOR = "AABF800614HI0"
-TOTAL = "0"              
+RFC_RECEPTOR = "CTE950627K46"
+TOTAL = "10000.000000"              
 
 WSDL_CANCEL = "https://demo-facturacion.finkok.com/servicios/soap/cancel.wsdl"
 
