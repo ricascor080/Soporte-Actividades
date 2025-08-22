@@ -21,7 +21,11 @@ respuesta = client.service.report_uuid(username,password,rfc,desde,hasta,invoice
 uuids = respuesta.invoices.ReportUUID # Respuesta del web service
 size=len(uuids) # Se contabiliza los uuids obtenidos de la respuesta del web service
 
-archivo = open("Report_uuid___.xml","w") # Creación del archivo .xml
+archivo = open("Report_uuid___.xml","w")
+
+
+
+ # Creación del archivo .xml
 
 i= 0
 while i < size:
