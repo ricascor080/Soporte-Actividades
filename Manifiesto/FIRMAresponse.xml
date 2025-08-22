@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap11env:Envelope>
+   <soap11env:Body>
+      <tns:sign_contractResponse>
+         <tns:sign_contractResult>
+            <s0:success>true</s0:success>
+            <s0:message>Proceso exitoso</s0:message>
+         </tns:sign_contractResult>
+      </tns:sign_contractResponse>
+      <tns:sign_contractResult>
+         <s0:success>true</s0:success>
+         <s0:message>Proceso exitoso</s0:message>
+      </tns:sign_contractResult>
+      <s0:success>true</s0:success>
+      <s0:message>Proceso exitoso</s0:message>
+   </soap11env:Body>
+</soap11env:Envelope>

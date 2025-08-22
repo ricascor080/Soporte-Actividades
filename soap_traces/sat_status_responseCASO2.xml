@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<senv:Envelope xmlns:plink="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:s0="apps.services.soap.core.views" xmlns:s12enc="http://www.w3.org/2003/05/soap-encoding/" xmlns:s12env="http://www.w3.org/2003/05/soap-envelope/" xmlns:senc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:senv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://facturacion.finkok.com/cancel" xmlns:wsa="http://schemas.xmlsoap.org/ws/2003/03/addressing" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <senv:Body>
+    <tns:get_sat_statusResponse>
+      <tns:get_sat_statusResult>
+        <s0:sat>
+          <s0:DetallesValidacionEFOS>RFC Emisor del CFDI se encuentra dentro de la lista de Empresa que Factura Operaciones Simuladas (EFOS).</s0:DetallesValidacionEFOS>
+          <s0:EsCancelable>Cancelable sin aceptación</s0:EsCancelable>
+          <s0:ValidacionEFOS>100</s0:ValidacionEFOS>
+          <s0:CodigoEstatus>S - Comprobante obtenido satisfactoriamente.</s0:CodigoEstatus>
+          <s0:Estado>Cancelado</s0:Estado>
+          <s0:EstatusCancelacion>Cancelado sin aceptación</s0:EstatusCancelacion>
+        </s0:sat>
+      </tns:get_sat_statusResult>
+    </tns:get_sat_statusResponse>
+  </senv:Body>
+</senv:Envelope>

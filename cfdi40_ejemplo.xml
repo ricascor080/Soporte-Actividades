@@ -1,0 +1,14 @@
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:ine="http://www.sat.gob.mx/ine" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  Exportacion="01" Fecha="2025-07-02T11:07:32" Folio="87045" FormaPago="01" LugarExpedicion="20928" MetodoPago="PUE" Moneda="MXN" Serie="A" SubTotal="10020.00" TipoCambio="1" TipoDeComprobante="I" Total="10020.00" Version="4.0" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd http://www.sat.gob.mx/ine http://www.sat.gob.mx/sitio_internet/cfd/ine/ine11.xsd">
+    <cfdi:Emisor Nombre="ESCUELA KEMPER URGATE" RegimenFiscal="601" Rfc="EKU9003173C9"/>
+    <cfdi:Receptor DomicilioFiscalReceptor="57740" Nombre="COMERCIALIZADORA TEODORIKAS" RegimenFiscalReceptor="601" Rfc="CTE950627K46" UsoCFDI="G03"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="82101602" ClaveUnidad="E48" Descripcion="PUBLICIDAD EN TELEVICION ABIERTA NACIONAL" Importe="10020.00" NoIdentificacion="SP1" ObjetoImp="01" Unidad="SERVICIO" ValorUnitario="10020.00"/>
+    </cfdi:Conceptos>
+    <cfdi:Complemento>
+        <ine:INE TipoProceso="Campaña" Version="1.1">
+            <ine:Entidad Ambito="Federal" ClaveEntidad="BCN">
+                <ine:Contabilidad IdContabilidad="1"/>
+            </ine:Entidad>
+        </ine:INE>
+    </cfdi:Complemento>
+</cfdi:Comprobante>

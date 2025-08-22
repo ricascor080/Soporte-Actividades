@@ -1,0 +1,36 @@
+<cfdi:Comprobante Exportacion="01" Fecha="2025-08-21T10:41:08" LugarExpedicion="67800" Moneda="XXX" Serie="A" SubTotal="0" TipoDeComprobante="P" Total="0" Version="4.0" xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:pago20="http://www.sat.gob.mx/Pagos20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd                         http://www.sat.gob.mx/Pagos20 http://www.sat.gob.mx/sitio_internet/cfd/Pagos/Pagos20.xsd">
+    <cfdi:Emisor Nombre="ESCUELA KEMPER URGATE" RegimenFiscal="601" Rfc="EKU9003173C9"/>
+    <cfdi:Receptor DomicilioFiscalReceptor="86400" Nombre="FELIX MANUEL ANDRADE BALLADO" RegimenFiscalReceptor="616" Rfc="AABF800614HI0" UsoCFDI="CP01"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84111506" ClaveUnidad="ACT" Descripcion="Pago" Importe="0" ObjetoImp="01" ValorUnitario="0"/>
+    </cfdi:Conceptos>
+    <cfdi:Complemento>
+        <pago20:Pagos Version="2.0"
+                      xmlns:pago20="http://www.sat.gob.mx/Pagos20"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:schemaLocation="http://www.sat.gob.mx/Pagos20 http://www.sat.gob.mx/sitio_internet/cfd/Pagos/Pagos20.xsd">
+            <pago20:Totales MontoTotalPagos="2500.00"/>
+            <pago20:Pago
+                FechaPago="2025-08-21T15:30:00"
+                MonedaP="MXN"
+                TipoCambioP="1"
+                Monto="2500.00"
+                FormaDePagoP="03">
+                
+                <pago20:DoctoRelacionado
+                    IdDocumento="A1B2C3D4-E5F6-7890-1234-567890ABCDEF"
+                    Serie="A"
+                    Folio="12345"
+                    MonedaDR="MXN"
+                    EquivalenciaDR="1"
+                    NumParcialidad="1"
+                    ImpSaldoAnterior="3000.00"
+                    ImpPagado="2500.00"
+                    ImpSaldoInsoluto="500.00"
+                    ObjetoImpDR="01">
+                </pago20:DoctoRelacionado>
+
+            </pago20:Pago>
+        </pago20:Pagos>
+    </cfdi:Complemento>
+</cfdi:Comprobante>

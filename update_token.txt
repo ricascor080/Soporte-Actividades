@@ -1,0 +1,8 @@
+{
+    'username': None,
+    'status': False,
+    'name': 'Prueba token',
+    'success': True,
+    'token': None,
+    'message': None
+}

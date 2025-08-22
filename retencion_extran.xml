@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<retenciones:Retenciones xmlns:retenciones="http://www.sat.gob.mx/esquemas/retencionpago/2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="2.0" FechaExp="2025-08-12T00:04:17" CveRetenc="01" LugarExpRetenc="01000" FolioInt="R-0001" Sello="" NumCert="30001000000500003416" Cert="30001000000500003416" xsi:schemaLocation="http://www.sat.gob.mx/esquemas/retencionpago/2 http://www.sat.gob.mx/esquemas/retencionpago/2/retencionpagov2.xsd">
+  <retenciones:Receptor NacionalidadR="Extranjero">
+    <retenciones:Extranjero NomDenRazSocR="JOHN DOE INC." NumRegIdTrib="US123456789" PaisDeResidParaEfecFisc="USA"/>
+  </retenciones:Receptor>
+  <retenciones:Periodo MesIni="01" MesFin="01" Ejercicio="2025"/>
+  <retenciones:Totales MontoTotOperacion="1000.00" MontoTotGrav="1000.00" MontoTotExent="0.00" MontoTotRet="100.00">
+    <retenciones:ImpRetenidos BaseRet="1000.00" ImpuestoRet="001" MontoRet="100.00" TipoPagoRet="01"/>
+  </retenciones:Totales>
+</retenciones:Retenciones>
